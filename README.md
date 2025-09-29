@@ -45,8 +45,8 @@ int main() {
 }
  ⁠
 
-	⁠screenshoot 
-	⁠![Screenshot Soal 1](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%201%20struct.png)
+> outputpengerjaan
+> ![output pengerjaan struct](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/struct%20cpp.png)
 
 Program diminta menghitung perulangan yang di berikan user dan keluar akan mengulang sebanyak yang di input oleh user
 
@@ -70,10 +70,10 @@ int main()
     cout << "Nilai z = " << Z << endl;
     return 0;
 }
- ⁠
 
-	⁠screenshoot  
-	⁠![Screenshot Soal 2](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%202%20aritmatika.png)
+
+> outputpengerjaan
+> ![output pengerjaan aritmatika](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/aritmatika%20cpp.png)
 
 Progam di minta menghitung luas keliling, menentukan panjang, lebar, luas, keliling
 
@@ -139,8 +139,8 @@ int main()
 }
  ⁠
 
-	⁠screenshoot 
-	⁠![Screenshot Soal 3](https://github.com/salfiayu/Modul-1/blob/main/Modul%201/screenshoot/Guided%203%20kondisi.png)
+> outputpengerjaan
+> ![output pengerjaan kondisi]((https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/kondisi%20cpp.png))
 
 Progam di minta menentukan Hari Senin - Minggu, Tentukan Libur dan Kerja
 
@@ -179,8 +179,9 @@ int main()
 }
  ⁠
 
-	⁠Output  
-	⁠![Screenshot Soal 4](output/screenshot_guided_soal4.png)
+> outputpengerjaan
+> ![output pengerjaan perulangan](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/perulangan%20cpp.png
+)
 
 Progam di minta menghitung rumus Aritmatika yang sudah ada
 
@@ -238,9 +239,8 @@ int main()
 }
 
  ⁠
-
-	⁠Output  
-	⁠![Screenshot Soal 5](output/screenshot_guided_soal5.png)
+> outputpengerjaan
+> ![output pengerjaan fungsi](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/fungsi%20cpp.png)
 
 Progam di minta meyimpan data nama mahasiswa yang sudah di input oleh user
 
@@ -263,8 +263,8 @@ int main()
 
  ⁠
 
-	⁠Output  
-	⁠![Screenshot Soal 5](output/screenshot_guided_soal5.png)
+> outputpengerjaan
+> ![output pengerjaan test](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/test%20cpp.png)
 
 Progam di minta meyimpan data nama mahasiswa yang sudah di input oleh user
 
@@ -298,8 +298,8 @@ int main() {
 }
  ⁠
 
-	⁠Output  
-	⁠![Screenshot Soal 1](output/screenshot_soal1.png)
+> outputpengerjaan
+> ![output pengerjaan soal1](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/soal1.png)
 
 Program diminta menampilkan hasil operasi aritmatika dari dua bilangan float. Logikanya sederhana: baca input, lakukan operasi dasar (+, -, *, /), lalu tampilkan hasilnya. Program juga melatih penggunaan kondisi sederhana untuk mencegah pembagian dengan nol.
 
@@ -351,8 +351,9 @@ int main() {
 }
  ⁠
 
-	⁠Output  
-	⁠![Screenshot Soal 2](output/screenshot_soal2.png)
+> outputpengerjaan
+> ![output pengerjaan soal2](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/soal2.png
+)
 
 Program membaca input bilangan bulat 0–100 lalu mengubahnya menjadi teks. Logikanya menggunakan array string untuk menyimpan kata-kata dasar angka, lalu dipetakan sesuai nilai input. Soal ini melatih penggunaan percabangan (if–else) untuk menangani kasus satuan, belasan, puluhan, dan angka seratus.
 
@@ -400,8 +401,8 @@ int main() {
 }
  ⁠
 
-	⁠Output  
-	⁠![Screenshot Soal 3](output/screenshot_soal3.png)
+> outputpengerjaan
+> ![output pengerjaan soal3](
 
 Program menampilkan pola angka simetris dengan tanda ⁠ * ⁠ di tengah. Deret kiri menurun dari n ke 1, sedangkan deret kanan menaik dari 1 ke n. Setiap baris jumlah angkanya berkurang hingga hanya tersisa 1, kemudian ditutup dengan tanda ⁠ * ⁠ di baris paling bawah. Soal ini melatih kombinasi loop menurun, loop menaik, serta penempatan simbol khusus.
 
