@@ -12,12 +12,11 @@ Bahasa C++ adalah bahasa pemrograman yang dikembangkan oleh Bjarne Stroustrup pa
 
 Sruct
 
-⁠ cpp
+```cpp
 #include <iostream>
 #include <string>
 using namespace std;
 
-// Definisi struct
 struct Mahasiswa {
     string nama;
     string nim;
@@ -30,52 +29,44 @@ int main() {
 
     cout << "Masukkan Nama Mahasiswa: ";
     getline(cin, mhs1.nama);
-    // cin >> mhs1.nama;
+   
     cout << "Masukkan NIM Mahasiswa : ";
     cin >> mhs1.nim;
     cout << "Masukkan IPK Mahasiswa : ";
     cin >> mhs1.ipk;
 
     cout << "\n=== Data Mahasiswa ===" << endl;
-    cout << "Nama : " << mhs1.nama << endl;
-    cout << "NIM  : " << mhs1.nim << endl;
-    cout << "IPK  : " << mhs1.ipk << endl;
-
-    return 0;
-}
- ⁠
+```
 
 > outputpengerjaan
 > ![output pengerjaan struct](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/struct%20cpp.png)
 
-Program diminta menghitung perulangan yang di berikan user dan keluar akan mengulang sebanyak yang di input oleh user
-
+Program diminta membuat program untuk menyimpan data mahasiswa (nama, NIM, IPK), lalu minta input dari user dan tampilkan kembali datanya.
 ---
 
 ### Soal 2
 
 Aritmatika
 
-⁠ cpp
+```cpp
 #include <iostream>
 using namespace std;
-int main()
-{
-    int W, X, Y;
+
+int main() {
+    int X, Y;
     float Z;
-    X = 7;
-    Y = 3;
-    W = 1;
-    Z = (X + Y) / (Y + W);
-    cout << "Nilai z = " << Z << endl;
+    X = 2; Y = 3; 
+    Z = (X + Y) / (X * Y);
+    cout << "Nilai Z = " << Z << endl; 
     return 0;
 }
+```
 
 
 > outputpengerjaan
 > ![output pengerjaan aritmatika](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/aritmatika%20cpp.png)
 
-Progam di minta menghitung luas keliling, menentukan panjang, lebar, luas, keliling
+Membuat program aritmatika sederhana: menghitung nilai Z = (X + Y) / (X * Y) dengan X = 2 dan Y = 3, lalu menampilkan hasilnya.
 
 ### Soal 3
 
@@ -140,9 +131,9 @@ int main()
  ⁠
 
 > outputpengerjaan
-> ![output pengerjaan kondisi]((https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/kondisi%20cpp.png))
+> ![output pengerjaan kondisi](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/kondisi%20cpp.png)
 
-Progam di minta menentukan Hari Senin - Minggu, Tentukan Libur dan Kerja
+Pertama menghitung diskon 5% jika total belanja lebih dari Rp100.000, jika kurang maka tidak ada diskon. Kedua sama, hanya lebih jelas dengan if–else. Program ketiga memakai switch case untuk menentukan hari kerja (kode 1–5), hari libur (kode 6–7), atau menampilkan pesan salah jika kode tidak valid.
 
 ### Soal 4
 
@@ -183,7 +174,8 @@ int main()
 > ![output pengerjaan perulangan](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/perulangan%20cpp.png
 )
 
-Progam di minta menghitung rumus Aritmatika yang sudah ada
+Program pertama menampilkan kalimat **“saya sahroni”** berulang sesuai angka yang kita masukkan. Program kedua menampilkan kalimat **“bahlil ke-…”** berulang mulai dari 1 sampai sebelum jumlah yang kita masukkan.
+
 
 ### Soal 5
 
@@ -242,7 +234,7 @@ int main()
 > outputpengerjaan
 > ![output pengerjaan fungsi](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/fungsi%20cpp.png)
 
-Progam di minta meyimpan data nama mahasiswa yang sudah di input oleh user
+Program ini menghitung luas dan keliling persegi panjang. Bedanya, fungsi mengembalikan nilai hasil hitung, sedangkan prosedur langsung menampilkan hasilnya. 
 
 ### Soal 6
 
@@ -266,8 +258,7 @@ int main()
 > outputpengerjaan
 > ![output pengerjaan test](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/test%20cpp.png)
 
-Progam di minta meyimpan data nama mahasiswa yang sudah di input oleh user
-
+Program ini dipakai untuk meminta kita mengetik satu huruf/karakter, lalu program akan menampilkan kembali huruf yang kita ketik.
 
 ## Unguided
 
@@ -301,7 +292,7 @@ int main() {
 > outputpengerjaan
 > ![output pengerjaan soal1](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/soal1.png)
 
-Program diminta menampilkan hasil operasi aritmatika dari dua bilangan float. Logikanya sederhana: baca input, lakukan operasi dasar (+, -, *, /), lalu tampilkan hasilnya. Program juga melatih penggunaan kondisi sederhana untuk mencegah pembagian dengan nol.
+Program ini seperti kalkulator sederhana. Kita memasukkan dua angka, lalu program akan menampilkan hasil tambah, kurang, kali, dan bagi. Kalau angka kedua yang dimasukkan nol, program memberi tahu bahwa pembagian tidak bisa dilakukan. 
 
 ---
 
@@ -355,7 +346,7 @@ int main() {
 > ![output pengerjaan soal2](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/soal2.png
 )
 
-Program membaca input bilangan bulat 0–100 lalu mengubahnya menjadi teks. Logikanya menggunakan array string untuk menyimpan kata-kata dasar angka, lalu dipetakan sesuai nilai input. Soal ini melatih penggunaan percabangan (if–else) untuk menangani kasus satuan, belasan, puluhan, dan angka seratus.
+Program ini mengubah angka 0 sampai 100 menjadi tulisan. Misalnya kalau kita masukkan **15** maka keluar **“lima belas”**, kalau **42** keluar **“empat puluh dua”**, dan kalau **100** keluar **“seratus”**. Kalau angkanya di luar 0–100, program akan bilang angkanya tidak bisa diproses. 
 
 ---
 
@@ -402,13 +393,13 @@ int main() {
  ⁠
 
 > outputpengerjaan
-> ![output pengerjaan soal3](
+> ![output pengerjaan soal3](https://github.com/chafdv/Modul1-/blob/main/Modul1/outputpengerjaan/soal3.png)
 
-Program menampilkan pola angka simetris dengan tanda ⁠ * ⁠ di tengah. Deret kiri menurun dari n ke 1, sedangkan deret kanan menaik dari 1 ke n. Setiap baris jumlah angkanya berkurang hingga hanya tersisa 1, kemudian ditutup dengan tanda ⁠ * ⁠ di baris paling bawah. Soal ini melatih kombinasi loop menurun, loop menaik, serta penempatan simbol khusus.
+Program ini menampilkan pola angka simetris dengan tanda `*` di tengah. Angka input jadi batas pola, tiap baris berisi angka menurun, `*`, lalu angka menaik, dan di akhir ada satu `*` di bawah.
 
 ---
 
 
 ## Referensi
 
-1. [https://en.wikipedia.org/wiki/Data_structure (diakses 28-09-2025)](https://www.dicoding.com/blog/memahami-esensi-bahasa-pemrograman-c/)
+1. [https://www.dicoding.com/blog/memahami-esensi-bahasa-pemrograman-c/]
